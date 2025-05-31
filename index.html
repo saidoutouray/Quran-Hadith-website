@@ -2,27 +2,114 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Quran & Hadith Reference</title>
   <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #007a5e;
+      color: white;
+      padding: 1.5rem 0;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 3rem 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .intro {
+      background: #eefaf4;
+      border-left: 5px solid #007a5e;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+    }
+    .feature-box {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 1rem;
+      flex: 1 1 250px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .feature-box h3 {
+      margin-top: 0;
+      color: #007a5e;
+    }
+    footer {
+      background: #007a5e;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+  </style>
 </head>
 <body>
+
   <header>
     <h1>Quran & Hadith Reference</h1>
     <nav>
       <a href="index.html">Home</a>
       <a href="quran.html">Quran</a>
       <a href="hadith.html">Hadith</a>
+      <a href="contact.html">Contact</a>
     </nav>
   </header>
 
   <main>
-    <h2>Welcome</h2>
-    <p>Explore the Holy Quran and authentic Hadith collections online.</p>
+    <section class="intro">
+      <h2>Welcome to Your Source of Islamic Knowledge</h2>
+      <p>
+        This website is dedicated to providing authentic references from the Holy Quran and Sahih Hadith collections. 
+        Whether you are a student of knowledge, a researcher, or a curious soul seeking truth, we aim to make the words 
+        of Allah ﷻ and the teachings of the Prophet Muhammad ﷺ easily accessible and beautifully presented.
+      </p>
+    </section>
+
+    <section class="features">
+      <div class="feature-box">
+        <h3>📖 Explore the Quran</h3>
+        <p>Read the Quran in Arabic with English translation. Browse by Surah, and listen to recitations by renowned Qaris.</p>
+      </div>
+      <div class="feature-box">
+        <h3>📜 Authentic Hadith</h3>
+        <p>Search through Sahih Bukhari, Muslim, and more. Find Hadiths by topic or collection with references.</p>
+      </div>
+      <div class="feature-box">
+        <h3>🔍 Smart Search</h3>
+        <p>Use our search tool to find verses or Hadiths by keywords, topics, or phrases in seconds.</p>
+      </div>
+      <div class="feature-box">
+        <h3>🌐 Free & Accessible</h3>
+        <p>Built with care for Muslims around the world. No sign-up, no ads—just knowledge for the sake of Allah.</p>
+      </div>
+    </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 Your Name</p>
+    <p>&copy; 2025 Quran & Hadith Reference | Designed with ❤️ for the Ummah</p>
   </footer>
+
 </body>
 </html>
